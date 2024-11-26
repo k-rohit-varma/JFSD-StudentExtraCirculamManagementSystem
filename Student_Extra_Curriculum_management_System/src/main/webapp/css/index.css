@@ -1,0 +1,121 @@
+@charset "UTF-8";/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 2rem;
+    background-color: #007bff;
+    color: white;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.banner button {
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.features, .upcoming-events, .testimonials, .call-to-action {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.features h3, .upcoming-events h3, .testimonials h3, .call-to-action h3 {
+    margin-top: 0;
+}
+
+.features ul, .upcoming-events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li, .upcoming-events li {
+    margin: 0.5rem 0;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-left: 5px solid #007bff;
+}
+
+.call-to-action button {
+    padding: 0.5rem 1rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.contact-info p {
+    margin: 0;
+}
+#img_hero
+{
+	width: 140px;
+	
+}
